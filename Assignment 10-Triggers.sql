@@ -90,15 +90,13 @@ insert into Teachers(Name,Subject,Experience,Salary) values
   AFTER DELETE ON Teachers
   FOR EACH ROW
   BEGIN
-   insert into teacher_log(teacher_id,action,time_stamp)
+  insert into teacher_log(teacher_id,action,time_stamp)
   values(old.Id,'Delete',now());
   END;
   //
   DELIMITER //
-   SHOW triggers;
+SHOW triggers;
 select * from Teachers;
 select * from teacher_log;
 delete from Teachers where Id=3;
   
-
-DROP DATABASE SCHOOLS;
