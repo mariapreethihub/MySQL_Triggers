@@ -1,7 +1,7 @@
 **MySQL_Triggers**
 
-      Trigger is a database objectthat automatically execute in response to specific database events, such as insert, 
-      update, or delete operations on a table.They are special stored procedures.
+      Trigger is a database objectthat automatically execute in response to specific database events,
+      such as insert, update, or delete operations on a table.They are special stored procedures.
 
 **Syntax for Creating a Trigger:**
 
@@ -17,11 +17,14 @@
 
 **Types of Trigger :**
 
-     1.Before Trigger- A before trigger is executed before the event such as insert,update,delete is applied to the table.
-     2.After Trigger- After trigger is executed after the event such as insert,update,delete is applied to the table.
+     1.Before Trigger- A before trigger is executed before the event such as insert,update,delete is 
+                       applied to the table.
+     2.After Trigger- After trigger is executed after the event such as insert,update,delete is applied
+                      to the table.
 
 **Application and uses of Triggers**
 
-    Triggers are commonly used to  validate input data,E-commerce platform.Healthcare system,Banking system etc.
+    Triggers are commonly used to  validate input data,E-commerce platform.Healthcare system,Banking 
+    system etc.
    
 
